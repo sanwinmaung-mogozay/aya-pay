@@ -1,0 +1,45 @@
+{
+    "name": "sanwinmaung-mogozay/ayapay",
+    "type": "library",
+    "description": "Modified CyberSource Secure Acceptance Hosted Checkout driver for the ayapay payment processing library",
+    "keywords": [
+        "gateway",
+        "merchant",
+        "omnipay",
+        "pay",
+        "payment",
+        "cybersource",
+        "secure",
+        "acceptance",
+        "hosted",
+        "checkout",
+        "web",
+        "mobile",
+        "redirect"
+    ],
+    "homepage": "https://github.com/sanwinmaung-mogozay/ayapay",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Leith Caldwell",
+            "email": "leith@codedruids.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": { "Ayapay\\CyberSource\\" : "src/" }
+    },
+    "autoload-dev": {
+        "psr-4": { "Ayapay\\CyberSource\\" : "tests/" }
+    },
+    "require": {
+        "omnipay/common": "~2.0"
+    },
+    "require-dev": {
+        "omnipay/tests": "~2.0"
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "2.0.x-dev"
+        }
+    }
+}
